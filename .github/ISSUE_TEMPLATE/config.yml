@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Sudah cek issue Baileys?
+    about: Cek open/close issue untuk memastikan BUG berasal dari baileys atau script
+    url: https://github.com/WhiskeySockets/Baileys/issues

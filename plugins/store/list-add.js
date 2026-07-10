@@ -1,0 +1,46 @@
+import { imgkub } from '@neoxr/helper'
+
+export const run = {
+   usage: ['+list'],
+   hidden: ['addlist'],
+   use: 'name | content',
+   category: 'store',
+   async: async (m, {
+      client,
+      text,
+      isPrefix,
+      command,
+      groupSet,
+      Utils
+   }) => {
+      try {
+         groupSet.list = groupSet?.list || []
+         if (!text) return client.reply(m.chat, Utils.example(isPrefix, command, 'premium script | price 150k'), m)
+         let [name, ...content] = text.split`|`
+         content = (content || []).join`|`
+         if (!name) return client.reply(m.chat, Utils.example(isPrefix, command, 'premium script | price 150k'), m)
+         const exists = groupSet.list.some(v => v.name === name.toLowerCase())
+         if (exists) return client.reply(m.chat, Utils.texted('bold', `🚩 List already exist.`), m)
+         var mediaUrl = ''
+         let q = m.quoted ? m.quoted : m
+         let mime = (q.msg || q).mimetype || ''
+         if (/image\/(jpe?g|png)/.test(mime)) {
+            let buffer = await q.download()
+            if (!buffer) return client.reply(m.chat, global.status.wrong, m)
+            let upload = await imgkub(buffer)
+            var mediaUrl = upload.data.url
+         }
+         groupSet.list.push({
+            name: name.trim(),
+            mediaUrl: mediaUrl ? mediaUrl : false,
+            content: (m.quoted && m.quoted.text) ? m.quoted.text.trim() : content.trim(),
+            created_at: new Date * 1
+         })
+         client.reply(m.chat, Utils.texted('bold', `🚩 List successfully added.`), m)
+      } catch (e) {
+         client.reply(m.chat, global.status.error, m)
+      }
+   },
+   error: false,
+   group: true
+}

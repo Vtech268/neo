@@ -1,0 +1,82 @@
+{
+   "name": "neoxr-bot",
+   "version": "5.1-optima",
+   "description": "WhatsApp Bot (Premium)",
+   "main": "index.js",
+   "type": "module",
+   "scripts": {
+      "build": "cd ./nuxt && yarn && yarn run generate",
+      "test": "node --experimental-vm-modules ./node_modules/.bin/jest unit-test",
+      "start": "node ."
+   },
+   "engines": {
+      "node": ">= 20.x"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/neoxr/neoxr-bot.git"
+   },
+   "keywords": [
+      "wb",
+      "bot"
+   ],
+   "author": "Wildan Izzudin",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/neoxr/neoxr-bot/issues"
+   },
+   "homepage": "https://github.com/neoxr/neoxr-bot#readme",
+   "dependencies": {
+      "@adiwajshing/keyed-db": "^0.2.4",
+      "@google/generative-ai": "^0.24.1",
+      "@neoxr/store": "file:.local_packages/store",
+      "@neoxr/wb": "file:.local_packages/wb",
+      "@neoxr/webly": "^0.0.12",
+      "@tensorflow/tfjs-node": "^4.22.0",
+      "adm-zip": "~0.5.10",
+      "async-retry": "^1.3.3",
+      "audio-decode": "^2.1.3",
+      "baileys": "file:.local_packages/baileys",
+      "better-sqlite3": "~12.1.1",
+      "bytes": "^3.1.2",
+      "canvacord": "5.4.8",
+      "canvas": "3.2.0",
+      "cfonts": "^3.3.1",
+      "chalk": "^5.6.2",
+      "colors": "^1.4.0",
+      "crypto-js": "^4.2.0",
+      "date-fns": "^4.4.0",
+      "dotenv": "^17.4.2",
+      "groq-sdk": "^0.30.0",
+      "html-entities": "2.6.0",
+      "multer": "~2.0.2",
+      "node-cron": "^4.6.0",
+      "node-gtts": "^2.0.2",
+      "nodemailer": "^6.9.13",
+      "nsfwjs": "npm:nsfwjs-patched",
+      "pg": "^8.22.0",
+      "qrcode": "^1.5.4",
+      "rootpath": "^0.1.2",
+      "sharp": "0.34.5",
+      "translate-google-api": "1.0.4",
+      "yt-search": "^2.10.3"
+   },
+   "devDependencies": {
+      "fflate": "^0.8.2",
+      "multer": "~2.0.1"
+   },
+   "nodemonConfig": {
+      "ignore": [
+         "**.json"
+      ],
+      "delay": 2500
+   },
+   "overrides": {
+      "jimp": "~0.22.12",
+      "form-data": "^4.0.0"
+   },
+   "resolutions": {
+      "jimp": "~0.22.12",
+      "form-data": "^4.0.0"
+   }
+}

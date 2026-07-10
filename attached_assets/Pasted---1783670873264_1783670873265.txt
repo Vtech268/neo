@@ -1,0 +1,96 @@
+
+
+                          █▀▄ ▄▀█ █▄ █ █ █▀▀ █     ▄▀█ █
+                          █▄▀ █▀█ █ ▀█ █ ██▄ █▄▄   █▀█ █
+
+
+
+
+WARNING: PostgreSQL (pg) not installed! Running in memory-only mode.
+PostgreSQL (pg) not installed!
+WARNING: @neoxr/wb is out of date! Update with "npm install @neoxr/wb@6.0.0rc.66"
+Server started on PORT ---> 3001 | Socket : ON
+ Access URL  : http://localhost:3001
+WARNING: @neoxr/webly is out of date! Update with "npm install @neoxr/webly@0.0.13"
+140.213.148.111 GET / 200 106.8 KB - 5.929 ms
+140.213.148.111 GET /_payload.json?d42883c7-adb9-4711-a32f-c9b3432e4ffe 200 69 B - 2.531 ms
+140.213.148.111 GET /_nuxt/DlkSVgPz.js 200 370.8 KB - 5.405 ms
+140.213.148.111 GET /_nuxt/DOEDoOv2.js 200 9 KB - 3.218 ms
+140.213.148.111 GET /_nuxt/DpThoMr2.js 200 64 B - 4.373 ms
+140.213.148.111 GET /_nuxt/Dsrf9w28.js 200 5.5 KB - 30.679 ms
+140.213.148.111 GET /_nuxt/ik2LlRsd.js 200 69.8 KB - 2.986 ms
+140.213.148.111 GET /_nuxt/Be_JHD4X.js 200 128.9 KB - 3.542 ms
+140.213.148.111 GET /_nuxt/CphLXfON.js 200 361 B - 1.286 ms
+140.213.148.111 GET /_nuxt/DElUTK9t.js 200 40.6 KB - 3.564 ms
+140.213.148.111 GET /_nuxt/index.CrzrXKfJ.css 200 2.9 KB - 5.476 ms
+140.213.148.111 GET /_nuxt/index.D_y52QVz.css 200 27.2 KB - 9.481 ms
+140.213.148.111 GET /_nuxt/default.3Lt_fAKp.css 200 2 KB - 1.494 ms
+ Error   10/07/26 15:07:15  : TypeError: Cannot read properties of undefined (reading 'sent')
+    at execution (file:///home/runner/workspace/core/routes/data/data-statistic.js:12:36)
+    at eval (eval at <anonymous> (/home/runner/workspace/node_modules/@neoxr/webly/lib/Build/create.js:2:74497), <anonymous>:3:76973)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:137:13)
+    at file:///home/runner/workspace/core/middlewares/requires.js:49:4
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/workspace/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:281:22
+140.213.148.111 GET /data/statistic 500 92 B - 11.631 ms
+140.213.148.111 GET /_nuxt/entry.Chb99Lj1.css 200 11.2 KB - 12.631 ms
+ Error   10/07/26 15:07:15  : TypeError: Cannot read properties of undefined (reading 'sent')
+    at execution (file:///home/runner/workspace/core/routes/data/data-statistic.js:12:36)
+    at eval (eval at <anonymous> (/home/runner/workspace/node_modules/@neoxr/webly/lib/Build/create.js:2:74497), <anonymous>:3:76973)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:137:13)
+    at file:///home/runner/workspace/core/middlewares/requires.js:49:4
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/workspace/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:281:22
+140.213.148.111 GET /data/statistic 500 92 B - 1.926 ms
+🟢 Client connected: YJu9N6O70-jKhVGkAAAB
+140.213.148.111 GET /_nuxt/builds/meta/d42883c7-adb9-4711-a32f-c9b3432e4ffe.json 200 369 B - 1.304 ms
+140.213.148.111 GET /_nuxt/ujcyJrdS.js 200 657 B - 1.318 ms
+140.213.148.111 GET /_nuxt/BQnwAbHg.js 200 15.9 KB - 61.732 ms
+140.213.148.111 GET /_nuxt/docs.DB4VTnwa.css 200 3.1 KB - 66.050 ms
+140.213.148.111 GET /_nuxt/Dq-I3unT.js 200 44.1 KB - 68.276 ms
+140.213.148.111 GET /docs/_payload.json?d42883c7-adb9-4711-a32f-c9b3432e4ffe 200 69 B - 0.667 ms
+140.213.148.111 GET /auth/login/_payload.json?d42883c7-adb9-4711-a32f-c9b3432e4ffe 200 69 B - 0.623 ms
+140.213.148.111 GET / 200 106.8 KB - 0.960 ms
+140.213.148.111 GET /_payload.json?d42883c7-adb9-4711-a32f-c9b3432e4ffe 200 69 B - 1.802 ms
+140.213.148.111 GET /_nuxt/DlkSVgPz.js 200 370.8 KB - 2.354 ms
+140.213.148.111 GET /_nuxt/DOEDoOv2.js 200 9 KB - 0.705 ms
+140.213.148.111 GET /_nuxt/DpThoMr2.js 200 64 B - 0.614 ms
+140.213.148.111 GET /_nuxt/Dsrf9w28.js 200 5.5 KB - 0.970 ms
+140.213.148.111 GET /_nuxt/Be_JHD4X.js 200 128.9 KB - 0.909 ms
+140.213.148.111 GET /_nuxt/DElUTK9t.js 200 40.6 KB - 8.426 ms
+140.213.148.111 GET /_nuxt/CphLXfON.js 200 361 B - 2.175 ms
+140.213.148.111 GET /_nuxt/ik2LlRsd.js 200 69.8 KB - 2.534 ms
+140.213.148.111 GET /_nuxt/index.CrzrXKfJ.css 200 2.9 KB - 1.467 ms
+140.213.148.111 GET /_nuxt/index.D_y52QVz.css 200 27.2 KB - 1.023 ms
+140.213.148.111 GET /_nuxt/default.3Lt_fAKp.css 304 0 B - 0.783 ms
+140.213.148.111 GET /_nuxt/entry.Chb99Lj1.css 304 0 B - 19.989 ms
+ Error   10/07/26 15:07:38  : TypeError: Cannot read properties of undefined (reading 'sent')
+    at execution (file:///home/runner/workspace/core/routes/data/data-statistic.js:12:36)
+    at eval (eval at <anonymous> (/home/runner/workspace/node_modules/@neoxr/webly/lib/Build/create.js:2:74497), <anonymous>:3:76973)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:137:13)
+    at file:///home/runner/workspace/core/middlewares/requires.js:49:4
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/runner/workspace/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at /home/runner/workspace/node_modules/express/lib/router/index.js:281:22
+140.213.148.111 GET /data/statistic 500 92 B - 1.100 ms
+140.213.148.111 GET /_nuxt/docs.DB4VTnwa.css 304 0 B - 0.919 ms
+140.213.148.111 GET /_nuxt/Dq-I3unT.js 304 0 B - 1.781 ms
+140.213.148.111 GET /_nuxt/ujcyJrdS.js 304 0 B - 0.243 ms
+140.213.148.111 GET /_nuxt/BQnwAbHg.js 304 0 B - 0.383 ms
+140.213.148.111 GET /_nuxt/builds/meta/d42883c7-adb9-4711-a32f-c9b3432e4ffe.json 200 369 B - 0.707 ms
+ Error   10/07/26 15:07:38  : TypeError: Cannot read properties of undefined (reading 'sent')
+    at execution (file:///home/runner/workspace/core/routes/data/data-statistic.js:12:36)
+    at eval (eval at <anonymous> (/home/runner/workspace/node_modules/@neoxr/webly/lib/Build/create.js:2:74497), <anonymous>:3:76973)
+    at Layer.handle [as handle_request] (/home/runner/workspace/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/runner/workspace/node_modules/express/lib/router/route.js:137:13)
